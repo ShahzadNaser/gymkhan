@@ -1,0 +1,69 @@
+{
+ "creation": "2021-11-21 20:21:53.641127",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "full_name",
+  "relationship",
+  "date_of_birth",
+  "column_break_4",
+  "cnic_number",
+  "profession",
+  "blood_group"
+ ],
+ "fields": [
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "relationship",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Relationship"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cnic_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "CNIC Number"
+  },
+  {
+   "fieldname": "profession",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Profession"
+  },
+  {
+   "fieldname": "blood_group",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Blood Group"
+  }
+ ],
+ "istable": 1,
+ "modified": "2021-11-21 20:39:57.570010",
+ "modified_by": "Administrator",
+ "module": "gymkhana",
+ "name": "Dependent Detail",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

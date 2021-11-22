@@ -1,0 +1,62 @@
+{
+ "creation": "2021-11-21 20:23:33.700163",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "profession_at_present",
+  "govt_semi_govt_employee",
+  "name_of_organization",
+  "column_break_4",
+  "gradegroup",
+  "business"
+ ],
+ "fields": [
+  {
+   "fieldname": "profession_at_present",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Profession at Present",
+   "reqd": 1
+  },
+  {
+   "fieldname": "govt_semi_govt_employee",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Govt. Semi Govt Employee"
+  },
+  {
+   "fieldname": "name_of_organization",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name of Organization"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gradegroup",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Grade/Group"
+  },
+  {
+   "fieldname": "business",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Business"
+  }
+ ],
+ "istable": 1,
+ "modified": "2021-11-21 20:40:55.464821",
+ "modified_by": "Administrator",
+ "module": "gymkhana",
+ "name": "Education Detail",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
