@@ -127,7 +127,7 @@ app_license = "MIT"
 # 	"Task": "gymkhana.task.get_dashboard_data"
 # }
 
-doctypes_list = ["Customer"]
+doctypes_list = ["Customer","Payment Entry"]
 
 fixtures = [
     {"doctype": "Custom Script", "filters": [
