@@ -798,5 +798,37 @@
   "property": "read_only",
   "property_type": "Check",
   "value": "1"
+ },
+ {
+  "default_value": null,
+  "doc_type": "Customer",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocField",
+  "field_name": "customer_details",
+  "modified": "2021-12-02 11:10:25.286941",
+  "name": "Customer-customer_details-label",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "property": "label",
+  "property_type": "Data",
+  "value": "Member Details"
+ },
+ {
+  "default_value": null,
+  "doc_type": "Customer",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocField",
+  "field_name": "customer_details",
+  "modified": "2021-12-02 11:10:25.441647",
+  "name": "Customer-customer_details-description",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "property": "description",
+  "property_type": "Text",
+  "value": "Additional information regarding the Member."
  }
 ]
