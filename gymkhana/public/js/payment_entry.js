@@ -1,10 +1,13 @@
 frappe.ui.form.on('Payment Entry', {
 	refresh(frm) {
-		if(frm.doc.party){
+		if(!frm.is_new() && frm.doc.party){
             setTimeout(function(){
                 if(frm.doc.member_image)
                     $('[data-fieldname="html_view"]').html('<div class="image text-center" style="height: 130px !important;width: 120px !important;"><img style="max-height: 130px;" src="'+frm.doc.member_image+'"></div>');
             }, 100);   
+        }
+        if(frm.is_new()){
+            $('[data-fieldname="html_view"]').html('');
         }
 	},
 	party:function(frm){
