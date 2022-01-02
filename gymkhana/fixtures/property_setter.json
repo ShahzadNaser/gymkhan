@@ -830,5 +830,21 @@
   "property": "description",
   "property_type": "Text",
   "value": "Additional information regarding the Member."
+ },
+ {
+  "default_value": null,
+  "doc_type": "Payment Entry",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocField",
+  "field_name": "party",
+  "modified": "2022-01-02 21:02:11.577793",
+  "name": "Payment Entry-party-read_only",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "property": "read_only",
+  "property_type": "Check",
+  "value": "1"
  }
 ]
